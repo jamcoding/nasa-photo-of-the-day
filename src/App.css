@@ -1,5 +1,18 @@
-.App h1, .App h3 {
+body {
+  background-color: #F7F9F9;
+}
+
+.App {
+  margin: 50px 0px;
+}
+
+.App p:first-child {
   text-align: center;
+}
+
+.App h1, .App h3, .center {
+  text-align: center;
+  margin: 15px 0px;
 }
 
 .App-logo {
@@ -32,13 +45,24 @@
   }
 }
 
-.photo-card-container {
+.section {
   display: flex;
-  width: 1000px;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1100px;
   margin: auto;
-  /* border: thin solid black; */
+  border: thin solid black;
+} 
+
+.inner-container img {
+  width: 100%;
 }
 
-.photo-card img {
-  width: 100%;
+.inner-container p {
+  padding: 0px 10px;
+}
+
+.inner-container {
+  width: 48%;
+  margin: 1%;
 }
