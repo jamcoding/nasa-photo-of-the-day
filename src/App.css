@@ -1,4 +1,4 @@
-.App {
+.App h1, .App h3 {
   text-align: center;
 }
 
@@ -30,4 +30,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.photo-card-container {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  /* border: thin solid black; */
+}
+
+.photo-card img {
+  width: 100%;
 }

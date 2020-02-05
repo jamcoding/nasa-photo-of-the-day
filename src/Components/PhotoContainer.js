@@ -18,7 +18,7 @@ const PhotoContainer = () => {
 
     return (
         <div className="photo-card-container">
-            <PhotoContent data={nasa}/> 
+            <PhotoContent data={nasa} /> 
         </div>
     );
 };
