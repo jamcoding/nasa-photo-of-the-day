@@ -15,7 +15,7 @@ const PhotoContainer = () => {
     useEffect(effectCallBackFn, []);
 
     console.log('initial render', nasa);
-    
+
     return (
         <div className="photo-card-container">
             <PhotoContent data={nasa} /> 

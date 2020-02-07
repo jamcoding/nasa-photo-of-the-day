@@ -15,11 +15,6 @@ body {
   margin: 15px 0px;
 }
 
-.App h1, .App h3, .center {
-  text-align: center;
-  margin: 15px 0px;
-}
-
 .App-logo {
     transform: rotate(360deg);
 }
@@ -32,7 +27,6 @@ body {
   margin: auto;
   /* border: thin solid black; */
 }
-
 
 .inner-container img {
   width: 100%;
