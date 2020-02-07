@@ -7,7 +7,15 @@ body {
 }
 
 .App p:first-child {
+<<<<<<< HEAD
+=======
   text-align: center;
+}
+
+.App h1, .App h3, .center {
+>>>>>>> 8f55f6381c1a67328af3a260023a25c4920a56c1
+  text-align: center;
+  margin: 15px 0px;
 }
 
 .App h1, .App h3, .center {
@@ -47,13 +55,21 @@ body {
 
 .section {
   display: flex;
+<<<<<<< HEAD
   width: 1000px;
+=======
+>>>>>>> 8f55f6381c1a67328af3a260023a25c4920a56c1
   flex-direction: row;
   justify-content: space-around;
   width: 1100px;
   margin: auto;
+<<<<<<< HEAD
   /* border: thin solid black; */
 }
+=======
+  border: thin solid black;
+} 
+>>>>>>> 8f55f6381c1a67328af3a260023a25c4920a56c1
 
 .inner-container img {
   width: 100%;
