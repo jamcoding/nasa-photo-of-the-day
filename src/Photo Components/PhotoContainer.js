@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import styled from 'styled-components';
+import { Container, Row } from "reactstrap";
 import PhotoContent from './PhotoContent';
+
+const StyledHeader2 = styled.h2 `
+    text-align: center;
+`;
 
 const PhotoContainer = () => {
     const [nasa, setNasa] = useState([]);
@@ -17,9 +23,12 @@ const PhotoContainer = () => {
     console.log('initial render', nasa);
 
     return (
-        <div className="photo-card-container">
-            <PhotoContent data={nasa} /> 
-        </div>
+        <Row>
+            <Container>
+                <StyledHeader2>Photo of the Day</StyledHeader2>
+                <PhotoContent data={nasa} /> 
+            </Container>
+        </Row>
     );
 };
 
