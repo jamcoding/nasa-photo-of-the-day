@@ -1,6 +1,6 @@
 import React from "react";
 import PhotoContainer from "./Photo Components/PhotoContainer";
-// import MarsContainer from "./Mars Components/MarsContainer"
+// import MarsContainer from "./Mars Components/MarsContainer";
 import "./App.css";
 
 
@@ -16,5 +16,5 @@ function App() {
     </div>
   );
 }
-
+ 
 export default App;

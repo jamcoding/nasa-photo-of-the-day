@@ -4,6 +4,7 @@ import PhotoContent from './PhotoContent';
 
 const PhotoContainer = () => {
     const [nasa, setNasa] = useState([]);
+
     const effectCallBackFn = () => {
         axios
             .get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
@@ -21,4 +22,5 @@ const PhotoContainer = () => {
         </div>
     );
 };
+
 export default PhotoContainer;
